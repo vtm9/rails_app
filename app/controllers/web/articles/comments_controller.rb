@@ -1,6 +1,4 @@
-class CommentsController < ApplicationController
-  http_basic_authenticate_with name: 'viraj', password: 'password', only: :destroy
-
+class Web::Articles::CommentsController < Web::Articles::ApplicationController
   def create
     @article = Article.find(params[:article_id])
     @comment = @article.comments.create(comment_params)
@@ -17,6 +15,6 @@ class CommentsController < ApplicationController
   private
 
   def comment_params
-    params.require(:comment).permit(:commentor, :body)
+    params.require(:article_comment).permit(:commentor, :body)
   end
 end

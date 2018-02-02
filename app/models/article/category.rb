@@ -1,6 +1,7 @@
-class Article::Comment < ApplicationRecord
+class Article::Category < ApplicationRecord
   def self.model_name
     ActiveModel::Name.new(self, nil, 'Articles::Category')
   end
-  belongs_to :article
+
+  has_many :articles
 end
