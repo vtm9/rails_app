@@ -7,4 +7,4 @@
 #
 #   Character.create(name: 'Luke', movie: movies.first)
 #
-Article::Category.create([{ name: 'stuff', slug: 'stuff' }, { name: 'ruby', slug: 'ruby' }])
+# Article::Category.create([{ name: 'stuff', slug: 'stuff' }, { name: 'ruby', slug: 'ruby' }])
