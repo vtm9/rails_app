@@ -1,14 +1,25 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-empty:
-  commentor: MyString
-  body: MyText
-
 one:
   commentor: MyString
   body: MyText
-  article: one
+  article: draft
 
 two:
   commentor: MyString
   body: MyText
-  article: two
+  article: draft
+
+three:
+  commentor: MyString
+  body: MyText
+  article: moderation
+
+four:
+  commentor: MyString
+  body: MyText
+  article: published
+
+five:
+  commentor: MyString
+  body: MyText
+  article: published

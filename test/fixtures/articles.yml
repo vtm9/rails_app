@@ -1,15 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+draft:
+  title: Title
+  text: test
+  state: draft
 
-empty:
-  title: MyString
-  text: MyText
+moderation:
+  title: On moderation article
+  text: programming
+  state: moderation
+  category: it
 
-one:
-  title: MyString
-  text: MyText
-  category: one
-
-two:
-  title: MyString
-  text: MyText
-  category: two
+published:
+  title: Goog game
+  text: programming
+  state: published
+  category: stuff
