@@ -1,11 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+empty:
+  title: MyString
+  text: MyText
+
 one:
   title: MyString
   text: MyText
-  article_category_id: article_category_one
+  category: one
 
 two:
   title: MyString
   text: MyText
-  article_category_id: article_category_two
+  category: two
