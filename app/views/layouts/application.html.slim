@@ -7,4 +7,11 @@ html
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
+    nav.navbar.navbar-default role="navigation"
+      .container-fluid
+          ul.nav.navbar-nav.navbar-right
+            li
+              a href="#{moderation_articles_path}"  Moderation
+            li
+              a href="#{articles_path}"  Blog
     = yield
